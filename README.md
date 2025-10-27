@@ -13,7 +13,7 @@ It’s designed to demonstrate how Excel can be used for real-world analytical w
 | **Sales_Detail** | Cleaned and verified dataset (includes Verified Sales Column) |
 | **Order_Summary** | Aggregated metrics per order |
 | **Descriptive_Analysis** | Summary statistics (mean, median, CV, skewness, kurtosis) |
-| **Pivot Tables**|Summarized Data|
+| **Pivot_Tables**|Summarized Data|
 | **Dashboard** | Interactive visuals and KPIs |
 
 ---
