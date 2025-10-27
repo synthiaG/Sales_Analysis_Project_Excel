@@ -1,7 +1,7 @@
 # Sales Analysis Project (Excel + Power Query)
 
 ## 📊 Project Overview
-This Excel project provides a full sales performance analysis — from data cleaning to KPI visualization — using **Power Query**, **Pivot Tables**, and **Descriptive Analysis**.  
+This Excel project provides a full sales performance analysis — from data cleaning to KPI visualization using **Power Query**, **Pivot Tables**, and **Descriptive Analysis**.  
 It’s designed to demonstrate how Excel can be used for real-world analytical workflows similar to Power BI dashboards.
 
 ---
