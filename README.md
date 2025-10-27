@@ -53,7 +53,9 @@ It’s designed to demonstrate how Excel can be used for real-world analytical w
 **Synthia Atieno Oduor**  
 *Junior Data Analyst | Excel | Power Query | SQL | Power BI | Python*
 
-[Connect on LinkedIn](https://linkedin.com/in/synthiaatieno)  
+[Connect on LinkedIn](hwww.linkedin.com/in/synthia-oduor-08b5361a7)
+
+ 
 [View More Projects](https://github.com/)
 
 ---
