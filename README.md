@@ -1,54 +1,176 @@
-# Sales Analysis Project (Excel + Power Query)
+Sales Analysis Dashboard – Excel End-to-End Project
+Author: Synthia Atieno
+Tools Used: Excel (Power Query, Pivot Tables, Data Model, Pivot Charts, Slicers)
+📌 Project Overview
 
-## 📊 Project Overview
-This Excel project provides a full sales performance analysis  from data cleaning to KPI visualization using **Power Query**, **Pivot Tables**, and **Descriptive Analysis**.  
-It’s designed to demonstrate how Excel can be used for real-world analytical workflows similar to Power BI dashboards.
+This end-to-end project analyzes company sales data from 2003 to 2005 to identify:
 
----
+Top-performing markets
 
-## Contents
-| Sheet | Description |
-|--------|--------------|
-| **Sales_Sample** | Raw sales data (unmodified) |
-| **Sales_Detail** | Cleaned and verified dataset (includes Verified Sales Column) |
-| **Order_Summary** | Aggregated metrics per order |
-| **Descriptive_Analysis** | Summary statistics (mean, median, CV, skewness, kurtosis) |
-| **Pivot_Tables**|Summarized Data|
-| **Dashboard** | Interactive visuals and KPIs |
+Best-selling product lines
 
----
+Customer contribution to revenue
 
-##  Tools Used
-- Microsoft Excel (Power Query, Data Model, Pivot Tables)
-- Excel Data Analysis Toolkit (Descriptive Stats)
-- Slicers for interactive filtering
-- Custom color theme and KPI formatting
+Seasonal and monthly sales patterns
 
----
+Deal size performance
 
-##  Key Insights
-- **Total Sales:** $8,290,886  
-- **Total Orders:** 2,823  
-- **Average Deal Size:** $2,937  
-- **USA** leads total sales; **Classic Cars** top product line  
-- **Coefficient of Variation:** Sales = 38%, Quantity = 28% (moderate variability)
+Operational bottlenecks (canceled/on-hold orders)
 
----
+The final output is an interactive Excel dashboard built using Pivot Tables, Pivot Charts, and Slicers.
 
-##  Features
-✅ Verified sales calculations using `[QuantityOrdered] * [PriceEach]`  
-✅ Data cleaning and validation in Power Query  
-✅ Dynamic KPI cards and charts  
-✅ Slicers linked by Year and Customer Name  
-✅ Descriptive statistics for data quality insights  
+📂 Dataset Description
 
----
+The raw dataset contains order-level transaction details, including:
 
-## Files
-- `Sales_Analysis_Project_By_SynthiaAtieno.xlsx` – Full Excel workbook  
-- `Sales_Dashboard_Preview.pdf` – Static PDF of the dashboard
+Column	Description
+QUANTITYORDERED	Number of units sold
+PRICEEACH	Unit selling price
+VERIFIED_SALES	Final validated revenue
+ORDERDATE	Transaction date
+STATUS	Shipped, On Hold, Cancelled, etc.
+PRODUCTLINE	Product category
+PRODUCTCODE	Unique product identifier
+CUSTOMERNAME	Corporate customer
+COUNTRY	Market/location
+DEALSIZE	Small, Medium, Large
 
----
+Data spans 2003–2005.
+
+🛠️ Process & Methods
+1️⃣ Data Cleaning – Power Query
+
+Checked data types
+
+Removed inconsistencies
+
+Validated sales fields
+
+Standardized dates
+
+Handled missing records
+
+2️⃣ Data Modeling
+
+Created relationships for multi-sheet analysis
+
+Ensured star-schema flow for Pivot Table efficiency
+
+3️⃣ Pivot Tables
+
+Used to calculate:
+
+Total Sales
+
+Total Orders
+
+Quantity Ordered
+
+Average Deal Size
+
+Sales by Country
+
+Sales by Product Line
+
+Monthly Sales Trend
+
+Order Status Breakdown
+
+4️⃣ Dashboard Design
+
+Interactive dashboard built using:
+
+Pivot Charts
+
+Slicers (Year, Product Line, Customer Name)
+
+KPI cards
+
+Trend analysis visuals
+
+📈 Key Business Questions & Answers
+1. Which countries generate the highest sales?
+
+USA is the largest market contributing ~36% of total revenue.
+
+2. Which product categories drive revenue?
+
+Classic Cars lead at ~35%, followed by:
+
+Vintage Cars (20%)
+
+Motorcycles (12%)
+
+Trucks & Buses (11%)
+
+3. Who are the top customers?
+
+Euro Shopping Channel – 9%
+
+Mini Gifts Distributors Ltd. – 6%
+
+Australian Collectors Co. – 2%
+
+4. What is the monthly/seasonal trend?
+
+Sales rise steadily toward October, peak in November, then drop sharply in December.
+
+Q4 overall has the highest performance.
+
+5. What is the average deal size?
+
+$2,936.91
+
+6. Which product lines are least performing?
+
+Ships and Trains record the lowest sales.
+
+💡 Insights & Recommendations
+1️⃣ Strengthen fulfilment operations
+
+About 7% of orders are On Hold, Cancelled, or In Process.
+➡️ Improving fulfilment & inventory accuracy can increase total sales.
+
+2️⃣ Deepen market penetration in Switzerland
+
+This market mainly buys Classic Cars only.
+➡️ Introduce awareness campaigns for other product lines.
+
+3️⃣ Boost awareness and promotions for low-selling product lines
+
+Ships and Trains show minimal demand.
+➡️ Consider promotions, bundles, or repositioning strategies.
+
+4️⃣ Leverage peak sales months
+
+Sales spike in October–November.
+➡️ Offer discounts, pre-order options & campaigns targeting Q4.
+
+5️⃣ Maintain classic cars as a flagship category
+
+Since they contribute the most revenue, ensure:
+
+Adequate stock
+
+Quality marketing
+
+Strategic pricing
+
+🖼️ Dashboard Preview
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/df3e495d-acaa-4b21-abf2-de09811f51d8" />
+
+
+
+🚀 How to Use This Project
+
+Download the dashboard file
+
+Use slicers (Year, Product Line, Customer) to explore insights
+
+View pivot tables for detailed numerical analysis
+
+Refer to the report for business insights and recommendations
 
 ## Author
 **Synthia Atieno Oduor**  
