@@ -1,160 +1,159 @@
-Sales Analysis Dashboard – Excel End-to-End Project
-Author: Synthia Atieno
-Tools Used: Excel (Power Query, Pivot Tables, Data Model, Pivot Charts, Slicers)
-📌 Project Overview
+Sales Analysis Dashboard (Excel End-to-End Project)
 
-This end-to-end project analyzes company sales data from 2003 to 2005 to identify:
+Analyzing global sales performance to uncover top markets, high-value customers, product trends, and growth opportunities.
 
-Top-performing markets
+📝 Project Overview
 
-Best-selling product lines
+This project performs a full sales analysis using Excel tools including Power Query, Pivot Tables, Pivot Charts, Slicers, and a Data Model.
 
-Customer contribution to revenue
-
-Seasonal and monthly sales patterns
-
-Deal size performance
-
-Operational bottlenecks (canceled/on-hold orders)
-
-The final output is an interactive Excel dashboard built using Pivot Tables, Pivot Charts, and Slicers.
+The dataset covers order transactions from 2003–2005, enabling a detailed look into revenue drivers, market performance, and seasonal patterns.
 
 📂 Dataset Description
-
-The raw dataset contains order-level transaction details, including:
-
-Column	Description
+Column	Meaning
 QUANTITYORDERED	Number of units sold
-PRICEEACH	Unit selling price
-VERIFIED_SALES	Final validated revenue
-ORDERDATE	Transaction date
-STATUS	Shipped, On Hold, Cancelled, etc.
-PRODUCTLINE	Product category
+PRICEEACH	Selling price per unit
+VERIFIED_SALES	Validated final revenue
+ORDERDATE	Date when order was placed
+STATUS	Shipped, Cancelled, On Hold, etc.
+PRODUCTLINE	Category (Classic Cars, Ships, etc.)
 PRODUCTCODE	Unique product identifier
-CUSTOMERNAME	Corporate customer
-COUNTRY	Market/location
-DEALSIZE	Small, Medium, Large
+CUSTOMERNAME	Corporate customer name
+COUNTRY	Customer market
+DEALSIZE	Small, Medium, or Large order size
+🛠️ Tools & Techniques Used
+Data Cleaning
 
-Data spans 2003–2005.
+✔ Power Query for cleaning, shaping, and validating the raw data
+✔ Fixed inconsistent data types
+✔ Standardized dates and removed invalid rows
 
-🛠️ Process & Methods
-1️⃣ Data Cleaning – Power Query
+Analysis & Modeling
 
-Checked data types
+✔ Data Model relationships
+✔ Pivot Tables for KPIs
+✔ Pivot Charts for trends
+✔ Slicers (Year, Product Line, Customer)
 
-Removed inconsistencies
+Dashboard Design
 
-Validated sales fields
+✔ KPI cards (Total Sales, Avg Deal Size, Revenue % Share)
+✔ Country map-style visualization
+✔ Sales trend chart
+✔ Product line contribution
+✔ Customer segmentation
 
-Standardized dates
+❓ Key Business Questions Answered
+1️⃣ Which countries generate the highest sales?
 
-Handled missing records
+USA leads with ~36% of total revenue.
 
-2️⃣ Data Modeling
+2️⃣ What product categories drive revenue?
 
-Created relationships for multi-sheet analysis
-
-Ensured star-schema flow for Pivot Table efficiency
-
-3️⃣ Pivot Tables
-
-Used to calculate:
-
-Total Sales
-
-Total Orders
-
-Quantity Ordered
-
-Average Deal Size
-
-Sales by Country
-
-Sales by Product Line
-
-Monthly Sales Trend
-
-Order Status Breakdown
-
-4️⃣ Dashboard Design
-
-Interactive dashboard built using:
-
-Pivot Charts
-
-Slicers (Year, Product Line, Customer Name)
-
-KPI cards
-
-Trend analysis visuals
-
-📈 Key Business Questions & Answers
-1. Which countries generate the highest sales?
-
-USA is the largest market contributing ~36% of total revenue.
-
-2. Which product categories drive revenue?
-
-Classic Cars lead at ~35%, followed by:
+Classic Cars (35%)
 
 Vintage Cars (20%)
 
 Motorcycles (12%)
 
 Trucks & Buses (11%)
+Low performers: Ships & Trains
 
-3. Who are the top customers?
+3️⃣ Who are the top customers?
 
 Euro Shopping Channel – 9%
 
-Mini Gifts Distributors Ltd. – 6%
+Mini Gifts Distributors Ltd – 6%
 
-Australian Collectors Co. – 2%
+Australian Collectors Co – 2%
 
-4. What is the monthly/seasonal trend?
+4️⃣ What is the monthly/seasonal sales trend?
 
-Sales rise steadily toward October, peak in November, then drop sharply in December.
+Sales rise steadily through the year → Peak in Oct–Nov → Sharp drop in December.
+Q4 is consistently the highest-performing quarter.
 
-Q4 overall has the highest performance.
-
-5. What is the average deal size?
+5️⃣ What is the average order size?
 
 $2,936.91
 
-6. Which product lines are least performing?
+🔍 Insights & Recommendations
+📌 1. USA remains the strongest market
 
-Ships and Trains record the lowest sales.
+This is likely due to higher order volumes.
+➡️ Improve fulfilment efficiency for the ~7% of orders On Hold/In Process to boost revenue.
 
-💡 Insights & Recommendations
-1️⃣ Strengthen fulfilment operations
+📌 2. Switzerland shows limited product adoption
 
-About 7% of orders are On Hold, Cancelled, or In Process.
-➡️ Improving fulfilment & inventory accuracy can increase total sales.
+Swiss customers mostly buy Classic Cars only.
+➡️ Run targeted marketing to showcase other product lines.
 
-2️⃣ Deepen market penetration in Switzerland
+📌 3. Low-performing categories need strategic support
 
-This market mainly buys Classic Cars only.
-➡️ Introduce awareness campaigns for other product lines.
+Ships and Trains underperform heavily.
+➡️ Promote through bundles, discounts, or repositioning.
 
-3️⃣ Boost awareness and promotions for low-selling product lines
+📌 4. Leverage the Q4 sales boom
 
-Ships and Trains show minimal demand.
-➡️ Consider promotions, bundles, or repositioning strategies.
+Strong Oct–Nov surge.
+➡️ Offer early-bird discounts, holiday promotions, or loyalty programs during this period.
 
-4️⃣ Leverage peak sales months
+📌 5. Focus on flagship categories
 
-Sales spike in October–November.
-➡️ Offer discounts, pre-order options & campaigns targeting Q4.
+Classic Cars drive the highest revenue.
+➡️ Ensure strong inventory, optimized pricing, and marketing support.
 
-5️⃣ Maintain classic cars as a flagship category
+📊 Dashboard Preview
 
-Since they contribute the most revenue, ensure:
+(Upload your screenshots here once the repo is created)
+Example:
 
-Adequate stock
+Images/
+ ├── dashboard-overview.png
+ ├── sales-by-country.png
+ ├── productline-breakdown.png
 
-Quality marketing
+📁 Project Structure
+Sales-Analysis-Excel/
+│
+├── Data/
+│   ├── Raw_Data.xlsx
+│   ├── Clean_Data.xlsx
+│
+├── Dashboard/
+│   └── Sales_Dashboard.xlsx
+│
+├── Images/
+│   ├── dashboard-main.png
+│   ├── productline-chart.png
+│
+└── README.md
 
-Strategic pricing
+🧠 Skills Demonstrated
+
+Data Cleaning (Power Query)
+
+Pivot Tables & Pivot Charts
+
+Excel Data Modeling
+
+Dashboard Design
+
+Trend Analysis
+
+Market Segmentation
+
+Product Line Analysis
+
+Insight & Recommendation Writing
+
+🧩 How to Use This Project
+
+Download the Excel dashboard
+
+Use slicers to explore data by year, product line, customer
+
+Review pivot tables for detailed calculations
+
+Read the insights section to understand the business implications
 
 🖼️ Dashboard Preview
 
@@ -162,15 +161,6 @@ Strategic pricing
 
 
 
-🚀 How to Use This Project
-
-Download the dashboard file
-
-Use slicers (Year, Product Line, Customer) to explore insights
-
-View pivot tables for detailed numerical analysis
-
-Refer to the report for business insights and recommendations
 
 ## Author
 **Synthia Atieno Oduor**  
