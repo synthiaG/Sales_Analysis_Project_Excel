@@ -8,7 +8,7 @@ This project performs a full sales analysis using Excel tools including Power Qu
 
 The dataset covers order transactions from 2003–2005, enabling a detailed look into revenue drivers, market performance, and seasonal patterns.
 
-📂 Dataset Description
+ ### Dataset Description
 Column	Meaning
 QUANTITYORDERED	Number of units sold
 PRICEEACH	Selling price per unit
