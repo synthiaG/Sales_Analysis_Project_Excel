@@ -1,12 +1,14 @@
 ### Sales Analysis Dashboard (Excel End-to-End Project)
 
 Analyzing global sales performance to uncover top markets, high-value customers, product trends, and growth opportunities.
+
 ---
 ### Project Overview
 
 This project performs a full sales analysis using Excel tools including Power Query, Pivot Tables, Pivot Charts, Slicers, and a Data Model.
 
 The dataset covers order transactions from 2003–2005, enabling a detailed look into revenue drivers, market performance, and seasonal patterns.
+
 ---
  ### Dataset Description
 Column	Meaning
