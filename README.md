@@ -12,7 +12,7 @@ The dataset covers order transactions from 2003–2005, enabling a detailed look
 ---
  ### Dataset Description
 Column	Meaning
-|QUANTITYORDERED	|Number of units sold|
+QUANTITYORDERED	Number of units sold
 PRICEEACH	Selling price per unit
 VERIFIED_SALES	Validated final revenue
 ORDERDATE	Date when order was placed
@@ -22,12 +22,14 @@ PRODUCTCODE	Unique product identifier
 CUSTOMERNAME	Corporate customer name
 COUNTRY	Customer market
 DEALSIZE	Small, Medium, or Large order size
-🛠️ Tools & Techniques Used
-Data Cleaning
+### Tools & Techniques Used
+## Data Cleaning
 
-✔ Power Query for cleaning, shaping, and validating the raw data
-✔ Fixed inconsistent data types
-✔ Standardized dates and removed invalid rows
+## ✔ Power Query for cleaning, shaping, and validating the raw data
+
+## ✔ Fixed inconsistent data types
+
+## ✔ Standardized dates and removed invalid rows
 
 Analysis & Modeling
 
