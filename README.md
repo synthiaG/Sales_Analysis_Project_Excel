@@ -1,4 +1,4 @@
-##Sales Analysis Dashboard (Excel End-to-End Project)
+### Sales Analysis Dashboard (Excel End-to-End Project)
 
 Analyzing global sales performance to uncover top markets, high-value customers, product trends, and growth opportunities.
 
