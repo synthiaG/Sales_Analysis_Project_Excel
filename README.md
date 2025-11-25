@@ -12,7 +12,7 @@ The dataset covers order transactions from 2003–2005, enabling a detailed look
 ---
  ### Dataset Description
 Column	Meaning
-QUANTITYORDERED	Number of units sold
+|QUANTITYORDERED	|Number of units sold|
 PRICEEACH	Selling price per unit
 VERIFIED_SALES	Validated final revenue
 ORDERDATE	Date when order was placed
