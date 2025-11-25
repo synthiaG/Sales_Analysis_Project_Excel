@@ -2,7 +2,7 @@
 
 Analyzing global sales performance to uncover top markets, high-value customers, product trends, and growth opportunities.
 
-📝 Project Overview
+### Project Overview
 
 This project performs a full sales analysis using Excel tools including Power Query, Pivot Tables, Pivot Charts, Slicers, and a Data Model.
 
