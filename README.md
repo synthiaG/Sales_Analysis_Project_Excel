@@ -132,11 +132,6 @@ Classic Cars drive the highest revenue.
 
 ---
 
-### 🖼️ Dashboard Preview
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/df3e495d-acaa-4b21-abf2-de09811f51d8" />
-
----
 
 ## Author  
 **Synthia Atieno Oduor**  
