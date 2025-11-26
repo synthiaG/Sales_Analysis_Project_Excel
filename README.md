@@ -60,7 +60,7 @@ DEALSIZE	Small, Medium, or Large order size
 USA leads with ~36% of total revenue.
 
 
-2️⃣ What product categories drive revenue?
+## 2️⃣ What product categories drive revenue?
 
 Classic Cars (35%)
 
@@ -71,7 +71,7 @@ Motorcycles (12%)
 Trucks & Buses (11%)
 Low performers: Ships & Trains
 
-3️⃣ Who are the top customers?
+## 3️⃣ Who are the top customers?
 
 Euro Shopping Channel – 9%
 
@@ -79,12 +79,12 @@ Mini Gifts Distributors Ltd – 6%
 
 Australian Collectors Co – 2%
 
-4️⃣ What is the monthly/seasonal sales trend?
+## 4️⃣ What is the monthly/seasonal sales trend?
 
 Sales rise steadily through the year → Peak in Oct–Nov → Sharp drop in December.
 Q4 is consistently the highest-performing quarter.
 
-5️⃣ What is the average order size?
+## 5️⃣ What is the average order size?
 
 $2,936.91
 
