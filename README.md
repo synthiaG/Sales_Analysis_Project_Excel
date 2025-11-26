@@ -103,38 +103,10 @@ Classic Cars drive the highest revenue.
 
 ### 📊 Dashboard Preview
 
-(Upload your screenshots here once the repo is created)  
-Example:
+<img width="1370" height="785" alt="image" src="https://github.com/user-attachments/assets/4553560a-4741-4cb9-a301-ccf5bd065cbd" />
 
-Images/
-├── dashboard-overview.png
-├── sales-by-country.png
-├── productline-breakdown.png
 
-yaml
-Copy code
 
----
-
-### 📁 Project Structure
-
-Sales-Analysis-Excel/
-│
-├── Data/
-│ ├── Raw_Data.xlsx
-│ ├── Clean_Data.xlsx
-│
-├── Dashboard/
-│ └── Sales_Dashboard.xlsx
-│
-├── Images/
-│ ├── dashboard-main.png
-│ ├── productline-chart.png
-│
-└── README.md
-
-yaml
-Copy code
 
 ---
 
