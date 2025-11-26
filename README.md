@@ -31,25 +31,34 @@ DEALSIZE	Small, Medium, or Large order size
 
 ## ✔ Standardized dates and removed invalid rows
 
-Analysis & Modeling
+### Analysis & Modeling
 
-✔ Data Model relationships
-✔ Pivot Tables for KPIs
-✔ Pivot Charts for trends
-✔ Slicers (Year, Product Line, Customer)
+## ✔ Data Model relationships
 
-Dashboard Design
+## ✔ Pivot Tables for KPIs
 
-✔ KPI cards (Total Sales, Avg Deal Size, Revenue % Share)
-✔ Country map-style visualization
-✔ Sales trend chart
-✔ Product line contribution
-✔ Customer segmentation
+## ✔ Pivot Charts for trends
+
+## ✔ Slicers (Year, Product Line, Customer)
+
+### Dashboard Design
+
+## ✔ KPI cards (Total Sales, Avg Deal Size, Revenue % Share)
+
+## ✔ Country map-style visualization
+
+## ✔ Sales trend chart
+
+## ✔ Product line contribution
+
+## ✔ Customer segmentation
 
 ❓ Key Business Questions Answered
-1️⃣ Which countries generate the highest sales?
+## 1️⃣ Which countries generate the highest sales?
+
 
 USA leads with ~36% of total revenue.
+
 
 2️⃣ What product categories drive revenue?
 
