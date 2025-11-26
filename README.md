@@ -88,28 +88,29 @@ Q4 is consistently the highest-performing quarter.
 
 $2,936.91
 
-🔍 Insights & Recommendations
-📌 1. USA remains the strongest market
+### 🔍 Insights & Recommendations
+
+##📌 1. USA remains the strongest market
 
 This is likely due to higher order volumes.
 ➡️ Improve fulfilment efficiency for the ~7% of orders On Hold/In Process to boost revenue.
 
-📌 2. Switzerland shows limited product adoption
+##📌 2. Switzerland shows limited product adoption
 
 Swiss customers mostly buy Classic Cars only.
 ➡️ Run targeted marketing to showcase other product lines.
 
-📌 3. Low-performing categories need strategic support
+##📌 3. Low-performing categories need strategic support
 
 Ships and Trains underperform heavily.
 ➡️ Promote through bundles, discounts, or repositioning.
 
-📌 4. Leverage the Q4 sales boom
+##📌 4. Leverage the Q4 sales boom
 
 Strong Oct–Nov surge.
 ➡️ Offer early-bird discounts, holiday promotions, or loyalty programs during this period.
 
-📌 5. Focus on flagship categories
+##📌 5. Focus on flagship categories
 
 Classic Cars drive the highest revenue.
 ➡️ Ensure strong inventory, optimized pricing, and marketing support.
